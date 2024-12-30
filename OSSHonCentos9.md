@@ -8,6 +8,7 @@
   `sudo systemctl enable sshd`
 # Kiểm tra trạng thái 
   `sudo systemctl status sshd`
+  ![image](https://github.com/user-attachments/assets/a94546f1-ac95-4663-8177-62151492ffe0)
 ## Error: Access Denied khi SSH bằng Pass
 Fix: Thay đổi cấu hình SSH trong đừng dẫn `/etc/ssh/sshd_config`
 Tìm và sửa dòng PasswordAuthentication thành Yes hoặc có dấu # thì xóa nó đi
